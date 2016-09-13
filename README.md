@@ -75,3 +75,6 @@ Please check the API documentation under 'Documentation' folder to know more abo
 
 ###  Demo
 Please check the sample demo application 'GraphLayoutLibraryClient.exe' present under 'Demo' folder to view the layout algorithms in action. It also contains SBML to GraphML converter.
+
+### Contributors
+Noopur Landge, Pritish Dubey, Vrushali Inamdar, Vivek Kulkarni
