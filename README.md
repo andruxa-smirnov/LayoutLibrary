@@ -63,15 +63,15 @@
 
 Parameters:
     
-- <input_graphML_file_path> : String containing path of input GraphML file
-- <output_graphML_file_path> : String containing path of generated GraphML file
-- <vertex_order> : Enum of type 'LayoutEnum::VertexOrderCriteria'. Defines the ordering criterion for nodes. Can have values 'LayoutEnum::VertexOrderCriteria::DefaultOrder' / 'LayoutEnum::VertexOrderCriteria::TopologicalOrder' / 'LayoutEnum::VertexOrderCriteria::ConnectedComponentOrder'
-- <iteration_count> : Integer count for which the Fore Directed Layout steps are to be applied
+ * <input_graphML_file_path> : String containing path of input GraphML file
+ * <output_graphML_file_path> : String containing path of generated GraphML file
+ * <vertex_order> : Enum of type 'LayoutEnum::VertexOrderCriteria'. Defines the ordering criterion for nodes. Can have values 'LayoutEnum::VertexOrderCriteria::DefaultOrder' / 'LayoutEnum::VertexOrderCriteria::TopologicalOrder' / 'LayoutEnum::VertexOrderCriteria::ConnectedComponentOrder'
+ * <iteration_count> : Integer count for which the Fore Directed Layout steps are to be applied
     
 Note: These methods may throw 'LayoutException' and 'boost::exception' in case of unexpected conditions.
 
 ###  Documentation
-Please check the API documentation under 'Documentation' folder for more information about the APIs.
+Please check the API documentation under 'Documentation' folder to know more about the APIs.
 
 ###  Demo
 Please check the sample demo application 'GraphLayoutLibraryClient.exe' present under 'Demo' folder to view the layout algorithms in action. It also contains SBML to GraphML converter.
