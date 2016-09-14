@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key attr.type="integer" attr.name="coord_x" for="node" id="key_0" />
+<key attr.type="integer" attr.name="coord_y" for="node" id="key_1"/>
+<key attr.type="integer" attr.name="height" for="node" id="key_2"/> 
+<key attr.type="integer" attr.name="width" for="node" id="key_3"/> 
+<key attr.type="integer" attr.name="coord_x" for="graph" id="key_4"/> 
+<key attr.type="integer" attr.name="coord_y" for="graph" id="key_5"/> 
+<key attr.type="integer" attr.name="height" for="graph" id="key_6"/> 
+<key attr.type="integer" attr.name="width" for="graph" id="key_7"/> 
+<key attr.type="boolean" attr.name="bidirectional" for="edge" id="key_8"/> 
+<graph id="default" edgedefault="directed" >
+<data key="key_4">0</data>
+<data key="key_5">0</data>
+<data key="key_6">400</data>
+<data key="key_7">600</data>
+<graph id="Yeast" edgedefault="directed" >
+<data key="key_4">0</data>
+<data key="key_5">0</data>
+<data key="key_6">400</data>
+<data key="key_7">600</data>
+<node id="Glucose">
+<data key="key_0">70</data>
+<data key="key_1">36</data>
+<data key="key_2">40</data>
+<data key="key_3">40</data>
+</node>
+<node id="Glucose_6_phosphate">
+<data key="key_0">70</data>
+<data key="key_1">36</data>
+<data key="key_2">40</data>
+<data key="key_3">40</data>
+</node>
+<node id="ATP">
+<data key="key_0">70</data>
+<data key="key_1">36</data>
+<data key="key_2">40</data>
+<data key="key_3">40</data>
+</node>
+<node id="ADP">
+<data key="key_0">70</data>
+<data key="key_1">36</data>
+<data key="key_2">40</data>
+<data key="key_3">40</data>
+</node>
+<node id="Pi">
+<data key="key_0">70</data>
+<data key="key_1">36</data>
+<data key="key_2">40</data>
+<data key="key_3">40</data>
+</node>
+<edge id="e_Glucose_2_Glucose_6_phosphate" source="Glucose" target="Glucose_6_phosphate">
+<data key="key_8">false</data>
+</edge>
+<edge id="e_Glucose_2_ADP" source="Glucose" target="ADP">
+<data key="key_8">false</data>
+</edge>
+<edge id="e_ATP_2_Glucose_6_phosphate" source="ATP" target="Glucose_6_phosphate">
+<data key="key_8">false</data>
+</edge>
+<edge id="e_ATP_2_ADP" source="ATP" target="ADP">
+<data key="key_8">false</data>
+</edge>
+</graph>
+</graph>
+</graphml>
