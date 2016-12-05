@@ -73,8 +73,11 @@ Note: These methods may throw 'LayoutException' and 'boost::exception' in case o
 ###  Documentation
 Please check the API documentation under 'Documentation' folder to know more about the APIs.
 
+### Contributors
+Noopur Landge, Pritish Dubey, Vrushali Inamdar, Vivek Kulkarni
+
 ###  Demo
 Please check the sample demo application 'GraphLayoutLibraryClient.exe' present under 'Demo' folder to view the layout algorithms in action. It also contains SBML to GraphML converter.
 
-### Contributors
-Noopur Landge, Pritish Dubey, Vrushali Inamdar, Vivek Kulkarni
+![Alt text](/Images/all.png?raw=true "Different Layouts")
+
